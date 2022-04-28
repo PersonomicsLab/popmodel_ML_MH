@@ -16,7 +16,7 @@ The `integration.py` script accepts one command line parameter, which is the pat
 ...
 ```
 
-The categories I used (as is specified in the plotting R script `violin_plot_R2.r`) are:
+The categories used are specified in the plotting R scripts `violin_plot_R2_*.r` -- some examples are:
 
 ```R
 c("Rest", "Residuals", "Amplitude", "Averaged", "Concatenated",
@@ -33,4 +33,4 @@ The Python script will output a `plotting.csv` file in the same directory as the
 
 This script will read the `plotting.csv` file and plot a subfigure in one panel for each prediction target (fluid intelligence, neuroticism, age) it found. If you want it to only plot for one or two targets, you can either modify the code or simply don't select the data for the targets you don't want when you run the Python script.
 
-There are a huge number of parameters that you can control in the plotting code, but I only select some of them (that I think is most relevant and that I can understand) and put them to the head of the file. Generally speaking, you need to specify the input `plotting.csv` file, the output filename (without file type extension) and it should be ablt to work well enough. You can also change the size of the output, the layout of the panels, the font size of labels and so on. Please look at the code for the detail description of each parameter.
+Generally speaking, you need to specify the input `plotting.csv` file, the output filename (without file type extension) and it should be able to work well enough. You can also change the size of the output, the layout of the panels, the font size of labels and so on. Please look at the code for the detailed description of each parameter.
