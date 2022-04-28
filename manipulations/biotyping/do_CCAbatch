@@ -1,0 +1,14 @@
+#!/bin/sh
+  
+#SBATCH --job-name=permCCA
+#SBATCH --output=/scratch/janine.bijsterbosch/WAPIAW_2/heterogeneity/log/permCCA_%j.out
+#SBATCH --error=/scratch/janine.bijsterbosch/WAPIAW_2/heterogeneity/log/permCCA_%j.err
+#SBATCH --time=10:00:00
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=50GB
+ 
+script_dir=/scratch/janine.bijsterbosch/WAPIAW_2/heterogeneity/
+
+cd $script_dir
+module load matlab
+matlab -nodisplay -nojvm -batch "wapiawCCA"

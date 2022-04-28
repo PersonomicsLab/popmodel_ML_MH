@@ -1,0 +1,9 @@
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/rest_tan_proj_fi_all.csv,Rest
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/rest_tan_proj_nc_all.csv,Rest
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/rest_tan_proj_fi_IQ_bal.csv,Rest & Balance
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/rest_tan_proj_nc_N12_bal.csv,Rest & Balance
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/joint_proj_cat_amp_meanfi_IQ_bal.csv,Concatenated & Amplitude & PhenoAvg & Balance
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/joint_proj_cat_amp_meanfi_all.csv,Concatenated & Amplitude & PhenoAvg
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/joint_proj_cat_amp_meannc_all.csv,Concatenated & Amplitude & PhenoAvg
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/joint_proj_cat_amp_nc_N12_bal.csv,Concatenated & Amplitude & Balance
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/rest_Dadi_10kR.csv,Dadi

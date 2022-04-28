@@ -1,0 +1,14 @@
+#!/bin/sh
+  
+#SBATCH --job-name=ARI
+#SBATCH --output=/scratch/janine.bijsterbosch/WAPIAW_2/heterogeneity/log/ARI_%j.out
+#SBATCH --error=/scratch/janine.bijsterbosch/WAPIAW_2/heterogeneity/log/ARI_%j.err
+#SBATCH --time=23:55:00
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=5GB
+ 
+script_dir=/scratch/janine.bijsterbosch/WAPIAW_2/heterogeneity/
+
+cd $script_dir
+module load matlab
+matlab -nodisplay -nojvm -batch "wapiawARI"
