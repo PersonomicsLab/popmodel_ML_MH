@@ -1,6 +1,6 @@
 # Plotting
 
-The general idea is to use `integration.py` to aggregate relevant data into one `plotting.csv` file and labeled them in an additional column called `method`, then use `violin_plot_R2.r` to plot the data in the `plotting.csv` file according to the categories in `method`.
+The general idea is to use `integration.py` to aggregate relevant data into one `plotting.csv` file and labeled them in an additional column called `method`, then use `violin_plot_*.r` to plot the data in the `plotting.csv` file according to the categories in `method`.
 
 ## Setup
 
@@ -16,7 +16,7 @@ The `integration.py` script accepts one command line parameter, which is the pat
 ...
 ```
 
-The categories used are specified in the plotting R scripts `violin_plot_R2_*.r` -- some examples are:
+The categories used are specified in the plotting R scripts `violin_plot_*.r` -- some examples are:
 
 ```R
 c("Rest", "Residuals", "Amplitude", "Averaged", "Concatenated",
