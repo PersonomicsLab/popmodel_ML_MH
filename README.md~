@@ -18,7 +18,6 @@ Minimal functions for this paper's data manipulations (biotyping, task residuals
 
 Prediction outputs are included to allow for the re-plotting and examination of figures. See "figures" directory for more details and instructions on running figure-generating code.
 
-Finally, the file "comp_r2_stats.py" checks whether data manipulations produce statistically significant increases in mean R^2 when compared to our replication of Dadi et al's results on the UKB 20k release or Dadi's results on the 10k release.
 
 ## License
 
