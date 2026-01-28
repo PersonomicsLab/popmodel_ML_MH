@@ -1,0 +1,14 @@
+#!/bin/sh
+
+#SBATCH --job-name=calc_amps
+#SBATCH --output=/scratch/janine.bijsterbosch/WAPIAW_2/model/logs/camps_%j.out
+#SBATCH --error=/scratch/janine.bijsterbosch/WAPIAW_2/model/logs/camps_%j.err
+#SBATCH --time=23:55:00
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=100GB
+
+
+script_loc=/scratch/janine.bijsterbosch/WAPIAW_2/model/comp_amplitudes.py
+
+module load python
+python ${script_loc}

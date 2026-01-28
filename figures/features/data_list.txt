@@ -1,0 +1,19 @@
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/amp_fi_all.csv,Amplitude
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/amp_nc_all.csv,Amplitude
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/avg_joint_proj_amp_fi_all.csv,Averaged & Amplitude
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/avg_joint_proj_amp_nc_all.csv,Averaged & Amplitude
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/avg_joint_proj_fi_all.csv,Averaged
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/avg_joint_proj_nc_all.csv,Averaged
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/joint_proj_cat_amp_fi_all.csv,Concatenated & Amplitude
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/joint_proj_cat_amp_meanfi_all.csv,Concatenated & Amplitude & PhenoAvg
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/joint_proj_cat_amp_meannc_all.csv,Concatenated & Amplitude & PhenoAvg
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/joint_proj_cat_amp_nc_all.csv,Concatenated & Amplitude
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/joint_proj_cat_fi_all.csv,Concatenated
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/joint_proj_cat_nc_all.csv,Concatenated
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/rest_tan_proj_amp_fi_all.csv,Rest & Amplitude
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/rest_tan_proj_amp_nc_all.csv,Rest & Amplitude
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/rest_tan_proj_fi_all.csv,Rest
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/rest_tan_proj_meanfi_all.csv,Rest & PhenoAvg
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/rest_tan_proj_meannc_all.csv,Rest & PhenoAvg
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/rest_tan_proj_nc_all.csv,Rest
+/scratch/janine.bijsterbosch/WAPIAW_2/outputs/rest_Dadi_10kR.csv,Dadi
